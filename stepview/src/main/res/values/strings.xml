@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">stepview</string>
+    <string-array name="steps">
+        <item>Beginning</item>
+        <item>Intermediate\npage</item>
+        <item>End</item>
+        <item>Post step</item>
+    </string-array>
+
+    <string-array name="days">
+        <item>第1天</item>
+        <item>第2天</item>
+        <item>第3天</item>
+        <item>第4天</item>
+        <item>第5天</item>
+        <item>第6天</item>
+        <item>第7天</item>
+    </string-array>
+</resources>
