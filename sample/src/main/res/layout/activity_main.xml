@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#25448a"
     android:gravity="center"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:orientation="vertical">
 
     <com.woodys.stepview.StepView
         android:id="@+id/step_view"
@@ -20,10 +18,10 @@
         app:sv_doneCircleRadius="10dp"
         app:sv_selectedCircleColor="@color/color_DDC782"
         app:sv_selectedCircleRadius="10dp"
-        app:sv_textSize="12sp"
+        app:sv_bottomTextSize="12sp"
         app:sv_nextTextColor="@color/color_52514D"
         app:sv_doneTextColor="@color/color_EEE4C6"
-        app:sv_animationType="Circle"
+        app:sv_viewAnimationType="Circle"
         app:sv_stepPadding="0dp"
         app:sv_steps="@array/days"
         app:sv_stepsNumber="7"

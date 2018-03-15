@@ -158,9 +158,9 @@ public class StepView extends View {
         stepLineWidth = ta.getDimensionPixelSize(R.styleable.StepView_sv_stepLineWidth, 0);
         textPadding = ta.getDimensionPixelSize(R.styleable.StepView_sv_textPadding, 0);
         stepNumberTextSize = ta.getDimension(R.styleable.StepView_sv_stepNumberTextSize, 0);
-        textSize = ta.getDimension(R.styleable.StepView_sv_textSize, 0);
-        animationDuration = ta.getInteger(R.styleable.StepView_sv_animationDuration, 0);
-        animationType = ta.getInteger(R.styleable.StepView_sv_animationType, ANIMATION_LINE);
+        textSize = ta.getDimension(R.styleable.StepView_sv_bottomTextSize, 0);
+        animationDuration = ta.getInteger(R.styleable.StepView_sv_viewAnimationDuration, 0);
+        animationType = ta.getInteger(R.styleable.StepView_sv_viewAnimationType, ANIMATION_LINE);
         stepsNumber = ta.getInteger(R.styleable.StepView_sv_stepsNumber, 0);
         CharSequence[] descriptions = ta.getTextArray(R.styleable.StepView_sv_steps);
         if (descriptions != null) {
@@ -171,7 +171,7 @@ public class StepView extends View {
         } else {
             displayMode = DISPLAY_MODE_NO_TEXT;
         }
-        Drawable background = ta.getDrawable(R.styleable.StepView_sv_background);
+        Drawable background = ta.getDrawable(R.styleable.StepView_sv_viewBackground);
         if (background != null) {
             setBackgroundDrawable(background);
         }

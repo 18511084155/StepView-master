@@ -19,11 +19,13 @@
         <attr name="sv_stepPadding" format="dimension" />
         <attr name="sv_textPadding" format="dimension" />
         <attr name="sv_stepLineWidth" format="dimension" />
-        <attr name="sv_textSize" format="dimension|reference"/>
-        <attr name="sv_background" format="reference"/>
-        <attr name="sv_animationDuration" format="integer" />
+
+        <attr name="sv_bottomTextSize" format="dimension|reference"/>
+        <attr name="sv_viewBackground" format="reference"/>
+        <attr name="sv_viewAnimationDuration" format="integer" />
+
         <attr name="sv_stepViewStyle" format="reference" />
-        <attr name="sv_animationType" format="enum">
+        <attr name="sv_viewAnimationType" format="enum">
             <enum name="Line" value="0" />
             <enum name="Circle" value="1" />
             <enum name="All" value="2" />
